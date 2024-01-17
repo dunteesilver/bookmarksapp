@@ -25,6 +25,7 @@ function saveBookmark(e){
   */
 
   // Test if bookmarks is null
+  console.log('*** localStorage *** ' + localStorage);
   if(localStorage.getItem('bookmarks') === null){
     // Init array
     var bookmarks = [];
